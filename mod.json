@@ -1,0 +1,6 @@
+{
+  "name": "ctrip-comment-list",
+  "version": "0.0.1",
+  "apiDependencies": ["comment-list"]
+}
+
