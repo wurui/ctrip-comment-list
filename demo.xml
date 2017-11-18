@@ -14,33 +14,60 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <comment-list>
-        <avatar>
-            //a.oxm1.cc/img/fox.jpg
-        </avatar>
-        <user>
-            car
-        </user>
-        <text>
-            tough camera
-        </text>
-        <imgs>
+        <comment-gist>
+            <count>729</count>
+            <score>4.3</score>
+            <tags>
+                <i>小吃很出名 17</i>
+                <i>商业化浓 16</i>
+                <i>很热闹的一条街 14</i>                
+                <i>景色非常美 11</i>
+            </tags>
+        </comment-gist>
+        <comment-list>
             <i>
-                tough car
+                <avatar>http://i.oxm1.cc/uploads/git/wurui/img/2ajyf6sgmTizdxut96RkglmXoc5.jpg</avatar>
+                <user>司马仙儿</user>
+                <user_rank>1</user_rank>
+                <user_tag>点评家</user_tag>
+                <text>
+                    国为去的那天是大雨，所以人相对比较少，其实我不喜欢逛这种步行街，对于吃货来说清河坊街无疑是失望的！因为小吃基本没有什么，铺天盖地的都卖特产的，什么糖啊，丝绸啊（其实就是丝巾，十块一条），茶叶啊……不过难得来一趟的朋友可以去清河坊街买点特产，丝巾和茶叶我买了一些带回来给家人朋友！也不贵，也拿的出手！
+                </text>
+                <imgs>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9d3oyonTj9z9cn15RcyahA8q40-750.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9bn1zptTja0pzlzzRlkksA24nd-726.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9bn20efTja0pzlbdR8wsyAsl5-563.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9bn21siTja0pzjxaRbdkcA2wch-738.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9d3oyonTj9z9cn15RcyahA8q40-750.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9ee7ndmTj9xytyc6RattsA4jdb-666.jpg</i>
+                </imgs>
+                <score>3</score>
+                <href></href>
             </i>
-        </imgs>
-        <fav_count>
-            6256
-        </fav_count>
-        <view_count>
-            4
-        </view_count>
-        <score>
-            wallet
-        </score>
-        <href>
-            //a.oxm1.cc/img/fox.jpg
-        </href>
-    </comment-list>
+            <i>
+                <avatar>http://i.oxm1.cc/uploads/git/wurui/img/2ajyf6sg5Tizdxut9nRdkmhArm3.jpg</avatar>
+                <user>T18***872</user>
+                <text>
+                    南宋御街和清河坊街都带着浓厚的民国气息。一栋栋洋楼精致得能让人感受到自己的粗糙和庸俗，它们在历史的河流里屹立不倒，沉稳而厚重，注视它们你似乎能看到那个时代的沉浮，然而又无法真切的体会到。也终于看到了马中来老师给我们看的纪录片里的一个场景，感慨时光一去不可复返。
+百年老字号总是隐藏在大街的各个角落，回春堂药店的外墙斑驳，散发着浓郁的药香，不自觉地想沉沦下去；张小泉剪刀铺冷冷清清的，和银色的铁光倒是相得益彰；龙泉宝剑都藏在或朴实或耀眼的剑鞘里，店铺最里面的墙上挂着一面匾，上面似乎是“天下第一剑”的字样；各种老旧的丝绸庄都灰暗地收场，大门紧锁，只留下门前
+一块石碑徒自描绘当年的辉煌。
+各类博物馆安然地窝在自己的地界，人来也好人去也罢，都只是默默地注视着，不声不响。里面的展物也像是被冷落了数百年一般，无形中蒙上了一层灰。
+街道中央是无数的手艺人和手艺品，微雕，蛋雕，糖画，吹玻璃，面具等等琳琅满目。做糖画的周围，站满了人，那股香味儿却钻出人墙，钻进我的鼻腔里。
+两条街都是小吃街，尤其是清河坊街。两街一横一纵交错处，最为诱人。看中了好多美食，绿豆糕，龙须酥，杭州老酸奶，血糯米糕……可惜钱袋瘪瘪，肚子尚饱，未能尽兴。
+时而烈日，时而大雨，两条古街在阴晴不定的时光里，看着熙来攘往的人流，一边沉默，一边沉没。
+                </text>
+                <imgs>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9d3oyonTj9z9cn15RcyahA8q40-750.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9bn1zptTja0pzlzzRlkksA24nd-726.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9bn20efTja0pzlbdR8wsyAsl5-563.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9bn21siTja0pzjxaRbdkcA2wch-738.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9d3oyonTj9z9cn15RcyahA8q40-750.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9ee7ndmTj9xytyc6RattsA4jdb-666.jpg</i>
+                    <i>http://i.oxm1.cc/uploads/git/wurui/img/2a9ee7ndmTj9xytyc6RattsA4jdb-666.jpg</i>
+                </imgs>
+                <score>5</score>
+                <href></href>
+            </i>
+        </comment-list>
     </data>
 </root>

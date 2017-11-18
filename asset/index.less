@@ -1,0 +1,243 @@
+.oxmod-ctrip-comment-list{
+/* CSS */
+	padding:10px 15px;
+	font-size:12px;
+	-webkit-tap-highlight-color:transparent;
+	>h3{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+	.bt-more{
+		float: right;
+		color:#999;
+		font-size:12px;
+	}
+	.list>li{
+		padding-top: 10px;
+		padding-bottom: 15px;
+		border-bottom: 1px #f5f5f5 solid;
+		a{
+			color:inherit;
+			&:hover{
+				color: inherit;
+			}
+		}
+	}
+	.score-bar{
+		display: inline-block;
+		//width:72px;
+	}
+	.score-bar{
+		//position: relative;
+		display: inline-block;
+		width:58px;
+		height: 15px;
+		vertical-align: middle;
+		.foreground,
+		.background{
+			position: absolute;
+			overflow: hidden;
+			>i{
+				display: inline-block;
+				font-size: 10px;
+				//font-weight: 700;
+				font-style: normal;
+				line-height: 1;
+				display: inline-block;
+				border-radius: 3px;
+				padding:0px;
+				color:#fff;
+				background-color: #ccc;
+				//background-image: -webkit-linear-gradient(left, #f60, #f60);
+				//background-size: 50% 100%;
+				//background-repeat: no-repeat;
+				//background-position: 0 0;
+				margin-right: 1px;
+				&:before{
+					content: '\2605';
+				}
+
+			}
+		}
+		.foreground{
+			position: absolute;
+			i{
+				background-color: #f60;
+			}
+		}
+
+	}
+	.score-number{
+		color:#f60;
+		margin-right: 10px;
+	}
+	.comment-count{
+		color:#999;
+	}
+	.comment-tags{
+		padding:10px 0;
+		em{
+			font-style: normal;
+			padding:5px 7px;
+			font-size: 12px;
+			background-color: #f5f5f5;
+			display: inline-block;
+			white-space: nowrap;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			line-height: 1.2;
+			border-radius: 2px;
+		}
+	}
+	.text{
+		margin:10px 0;
+		line-height: 1.6;
+		display: -webkit-box;
+		-webkit-box-orient:vertical;
+		-webkit-line-clamp:5;
+		overflow: hidden;
+	}
+	.user{
+		padding-left: 55px;
+		padding-top:5px;
+		overflow: hidden;
+		font-size: 12px;
+		line-height: 20px;
+		.score-bar{
+			vertical-align: top;
+			line-height: 1;
+			height: 12px;
+		}
+	}
+	.avatar{
+		float: left;
+		margin-left: -55px;
+		margin-top: -5px;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+	}
+	.user_name{
+		font-size: 14px;
+		font-weight: 400;
+		margin-right: 10px;
+	}
+	.user_rank{
+		color:#fff;
+		padding:1px 3px;
+		background-color: #e8b95f;
+		border-radius: 2px;
+		font-size: 10px;
+		line-height: 1;
+		margin-right: 5px;
+		&:before{
+			content: 'VIP';
+			
+		}
+	}
+	.user_tag{
+		color:#fff;
+		padding:1px 3px;
+		background-color: #53b5ff;
+		border-radius: 2px;
+		font-size: 10px;
+		line-height: 1;
+		margin-right: 5px;
+	}
+	.imgs{
+		//height: 70px;
+		//overflow: hidden;
+		margin:0 -.5%;
+		img{
+			//width: 70px;
+			//height: 70px;
+			//border-style:solid;
+			//border-width:0 2px;
+			//border-color: #fff;
+			width: 24%;
+			padding-top: 24%;
+			margin: 0 0.5%;
+			height: 0;
+			background-position: center;
+			background-repeat: no-repeat;
+			-webkit-background-size: cover;
+			-webkit-box-sizing:border-box;
+		}
+	}
+	.show-imgcount-true{
+		position: relative;
+		font-size: 0;
+		//overflow: hidden;
+		&:after{
+			font-size: 12px;
+			content: attr(data-count);
+			color:#fff;
+			background-color: rgba(0, 0, 0, 0.8);
+			position: absolute;
+			right:.5%;
+			bottom: 0;
+			padding:2px 5px;
+			line-height: 1.2;	
+		}
+	}
+
+	.stamp{
+		//position: absolute;
+		height: 42px;
+		width: 42px;
+		line-height: 42px;
+		border-radius: 50%;
+		border:2px #ffc9b8 solid;
+		color:#ffc9b8;
+		float:right;
+		padding:2px;
+		text-align: center;
+		font-style: normal;
+		font-size: 16px;
+		position: relative;
+		margin-bottom: -30px;
+		-webkit-transform:rotate(20deg);
+		&:before,&:after{
+			content: '';
+			background-color: #ffc9b8;
+			height: 4px;
+			width: 4px;
+			position: absolute;
+			border:solid 4px #fff;
+			border-radius: 50%;
+			
+			top:50%;
+			margin-top:-6px;
+		}
+		&:before{
+			left:-5px;
+		}
+		&:after{
+			right:-5px;
+			//left:auto;
+		}
+
+		span{
+			display: inline-block;
+			border-radius: 50%;
+			width: 100%;
+			height: 100%;
+			border:1px #ffc9b8 solid;
+			-webkit-box-sizing:border-box;
+		}
+	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
