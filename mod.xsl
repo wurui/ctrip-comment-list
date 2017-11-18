@@ -1,14 +1,4 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:oxm="https://www.openxsl.com">
-	<xsl:template match="*" name="wurui.ctrip-comment-list.score-bar">
-		<span class="score-bar">
-			<nobr class="background">
-    			<span class="foreground" style="width:{format-number($score div 5,'##%')};">
-    				<i></i><i></i><i></i><i></i><i></i>
-    			</span>
-    			<i></i><i></i><i></i><i></i><i></i>
-    		</nobr>
-		</span>
-	</xsl:template>
     <xsl:template match="/root" name="wurui.ctrip-comment-list">
     	<xsl:param name="detail_link">#detail</xsl:param>
         <!-- className 'J_OXMod' required  -->
@@ -81,6 +71,11 @@
             		</li>
             	</xsl:for-each>
             </ul>
+            <xsl:if test="data/comment-gist/count &gt; 2">
+	            <div class="bottom-button">
+	            	<a href="{$detail_link}">查看全部<xsl:value-of select="data/comment-gist/count"/>条点评</a>
+	            </div>
+	        </xsl:if>
         </div>
     </xsl:template>
 </xsl:stylesheet>
